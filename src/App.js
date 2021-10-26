@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-  import './App.css';
-  import GetJSON from './GetJSON';
 
-  class App extends Component {
-    render() {
-      return (
-        <div className="App">
-          <GetJSON/>
-        </div>
-      );
-    }
-  }
-  
-  export default App;
+import './App.css';
+import GetJSON from './GetJSON';
+
+function App() {
+  return(
+      <div className="App">
+        <GetJSON/>
+      </div>
+  )
+}
+
+export default App;
