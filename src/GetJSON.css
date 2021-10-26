@@ -1,0 +1,7 @@
+li{
+    width: 200px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
