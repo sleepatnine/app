@@ -1,27 +1,27 @@
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-.user{
-    display: flex;
-    justify-content: space-between;
+.user {
+  display: flex;
+  justify-content: space-between;
 }
 
-.avatar{
-    max-width: 150px;
-    height: 150px;
-    border-radius: 50%;
+.avatar {
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
-.user_cart{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.user_cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 900px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
 }
