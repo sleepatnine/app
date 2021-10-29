@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 
 import "./App.css";
-import GetJSON from "./GetJSON";
+import Main from "./Main";
 
 function App() {
   return (
     <div className="App">
-      <GetJSON />
+      <Main />
     </div>
   );
 }
