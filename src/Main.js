@@ -9,10 +9,10 @@ const Main = () => {
     <main>
       <BrowserRouter>
         <Switch>
+        <Redirect exact from="/" to="/users" /> 
           <Route exact path="/users" component={UserList} />
           <Route exact path="/user/:id" component={UserPage} />
           <Route path="" component={PageNotFound} />
-          <Redirect from="/" to="/users" />
         </Switch>
       </BrowserRouter>
     </main>
